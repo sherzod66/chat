@@ -607,28 +607,23 @@ h6 {
 	}
 
 	.section__buttomblock {
-		display: flex;
-		flex-wrap: wrap;
+		display: block;
 	}
 
 	.section__row1 {
-		flex: 1 1 auto;
 		padding: 30px 30px;
 		background-color: #f0f0f0;
 		margin: 0px 0px 30px 0px;
 	}
 
 	.section__row2 {
-		flex: 1 1 auto;
 		margin: 0px 0px 0px 0px;
 		padding: 0px 5px 0px 0px;
 	}
 
-	.section__buttomblock {}
-
 	.map {
 		max-width: 100%;
-		height: 300px;
+		height: 100%;
 	}
 
 }
@@ -660,5 +655,9 @@ h6 {
 		width: 150px;
 		height: 48px;
 		margin: 0px auto;
+	}
+
+	.map {
+		height: 300px;
 	}
 }
